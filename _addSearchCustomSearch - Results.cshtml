@@ -1,0 +1,28 @@
+@using Connect.Koi;
+<link rel="stylesheet" href="@App.Path/dist/@(Koi.PickCss("bs3,bs4", "bs3")).css" data-enableoptimizations="true" />
+<script src="@App.Path/dist/scripts.js" data-enableoptimizations="bottom"></script>
+@{
+    var qs = Request.QueryString["addsearch"];
+}
+
+<div class="app-addSearchCustomResults">
+    <div class="form-inline">
+        <input type="text" class="addsearch form-control" placeholder="@App.Resources.PlaceholderText.." />
+        <a onclick="addsearch.submit()" /></a>
+    </div>
+
+    <!-- Search results will be rendered to this div -->
+    
+    <div id="addsearch-results">&nbsp;</div>
+    
+</div>
+<script src="https://addsearch.com/js/?key=@App.Settings.SearchKey&type=resultpage"></script>
+<!-- AddSearch settings -->
+<script>
+    window.addsearch_settings = {
+    display_url: true,
+    display_resultscount: true,
+    display_date: true,
+    display_sortby: true
+    };
+</script>

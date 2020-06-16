@@ -1,0 +1,13 @@
+@* put all necessary link/script tags here *@
+@using Connect.Koi;
+<link rel="stylesheet" href="@App.Path/dist/@(Koi.PickCss("bs3,bs4", "bs3")).css" data-enableoptimizations="true" />
+<script src="@App.Path/dist/scripts.js" data-enableoptimizations="bottom"></script>
+
+<div class="app-addSearchCustomInput" data-resultpage="@App.Settings.SearchPage">
+    <div class="inner">
+        <a href="#" id="submitSearch"></a>
+        <input id="query" type="text" placeholder="@App.Resources.PlaceholderText.."/>
+    </div>
+</div>
+
+

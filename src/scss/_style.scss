@@ -1,0 +1,232 @@
+//
+// This SCSS generates the css for the general styles
+//
+// It is used by all CSS generators (Bootstrap3/4, etc.)
+// To keep things simple, it uses the standard variables of 
+// bootstrap 4 conventions. 
+@media all {
+    .app-addSearchCustomInput {
+        display: block;
+        overflow: hidden;
+        input {
+            background: rgb(255, 255, 255) url("../icon.png") no-repeat center right;
+            padding-right: 35px;
+            width: 180px;
+            float: right;
+            padding-left: 14px;
+            border: 1px solid #ADAEB1;
+            height: 35px;
+            border-radius: 5px;
+            color: black;
+            cursor: text;
+        }
+        input:focus {
+            border: 1px solid $primary;
+            border-color: $primary;
+            outline: none;
+            cursor: default;
+            background-position: center right;
+        }
+        .inner {
+            position: relative;
+            overflow: hidden;
+            padding-bottom: 15px;
+        }
+        a {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            display: none;
+            width: 50px;
+            height: 35px;
+            border-radius: 0;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            text-align: center;
+            transition: background-color .2s linear;
+            background-size: 40px 40px;
+            background-color: transparent;
+            span {
+                line-height: 40px;
+                color: $primary;
+                transition: color .2s linear;
+            }
+            &:hover,
+            &:focus {
+                background-color: rgba(0, 0, 0, 0.1);
+                span {
+                    color: $primary;
+                }
+            }
+        }
+    }
+    .app-addSearchCustomInputMobile {
+        display: block;
+        overflow: hidden;
+        position: relative;
+        margin-top: 10px;
+        input {
+            background: rgb(255, 255, 255) url("../icon.png") no-repeat center right;
+            padding-right: 35px;
+            width: 100%;
+            box-sizing: border-box;
+            padding-left: 14px;
+            border: 0px solid transparent;
+            border: 1px solid #ADAEB1;
+            height: 40px;
+            border-radius: 5px;
+            color: black;
+            cursor: text;
+        }
+        input:focus {
+            border: 1px solid $primary;
+            border-color: $primary;
+            outline: none;
+            cursor: default;
+            background-position: center right;
+        }
+        .inner {
+            position: relative;
+            overflow: hidden;
+            padding-bottom: 15px;
+        }
+        a {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            width: 50px;
+            height: 40px;
+            border-radius: 0;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            text-align: center;
+            transition: background-color .2s linear;
+            background-size: 40px 40px;
+            background-color: transparent;
+            span {
+                line-height: 40px;
+                color: $primary;
+                transition: color .2s linear;
+            }
+            &:hover,
+            &:focus {
+                background-color: rgba(0, 0, 0, 0.1);
+                span {
+                    color: $primary;
+                }
+            }
+        }
+    }
+    /*Styling Input on Resultpage */
+    .app-addSearchCustomResults {
+        overflow: hidden;
+        input.form-control {
+            background: rgb(255, 255, 255) url("../icon.png") no-repeat center right;
+            padding-right: 35px;
+            padding-left: 14px;
+            border: 1px solid #ADAEB1;
+            height: 40px;
+            border-radius: 5px;
+            color: black;
+            width: 100%;
+            cursor: text;
+            box-sizing: border-box;
+            @include media-breakpoint-up(sm) {
+                width:100%;
+            }
+            &:focus {
+                border: 1px solid $primary;
+                border-color: $primary;
+                outline: none;
+                cursor: default;
+                background-position: center right;
+            }
+        }
+        .form-inline {
+            position: relative;
+            a {
+                position: absolute;
+                z-index: 10;
+                right: 0px;
+                top: 0px;
+                width: 50px;
+                height: 40px;
+                cursor: pointer;
+                &:hover,
+                &:focus {
+                    background-color: rgba(0, 0, 0, 0.1);
+                    border-top-right-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                }
+            }
+        }
+        h2 {
+            a {
+                word-break: break-all!important;
+            }
+        }
+    }
+    /*Styling Search Results*/
+    #addsearch-logo-img {
+        display: none!important;
+    }
+    @include media-breakpoint-up(md) {
+        .app-addSearchCustomResults #addsearch-results .addsearch-result-item-sub h1 a,
+        .app-addSearchCustomResults #addsearch-results .addsearch-result-item-sub h2 a {
+            color: #333!important;
+            font-size: 20px!important;
+            font-weight: normal!important;
+        }
+        #addsearch-results .addsearch-result-item-sub p span.document_url {
+            font-style: normal;
+            color: $primary!important;
+            word-wrap: break-word;
+            margin: 0px 0px 16px;
+        }
+        #addsearch-results .addsearch-result-item-sub p {
+            font-size: 16px!important;
+            line-height: 20px!important;
+        }
+        #addsearch-results .addsearch-result-item-container {
+            transition: background-color .3s linear;
+            &:hover {
+                background-color: #eee!important;
+            }
+        }
+        #addsearch-results .addsearch-result-item-sub {
+            border-bottom: 1px solid rgb(236, 236, 236)!important;
+            padding-bottom: 20px!important;
+            padding-top: 10px!important;
+        }
+        #addsearch-fuzzy span,
+        #addsearch-results div.addsearch-divider span {
+            height: 20px!important;
+            font-size: 14px!important;
+            line-height: 14px!important;
+            background-color: #f7f7f7;
+            border-bottom: 2px solid #ececec;
+        }
+    }
+    @include media-breakpoint-down(md) {
+        .app-addSearchCustomResults #addsearch-results .addsearch-result-item-sub h1 a,
+        .app-addSearchCustomResults #addsearch-results .addsearch-result-item-sub h2 a {
+            color: #333!important;
+            font-weight: normal!important;
+        }
+        #addsearch-results .addsearch-result-item-sub p span.document_url {
+            color: $primary!important;
+        }
+        #addsearch-results .addsearch-result-item-sub p {}
+        #addsearch-results .addsearch-result-item-container {
+            transition: background-color .3s linear;
+            &:hover {
+                background-color: #eee!important;
+            }
+        }
+        #addsearch-results .addsearch-result-item-sub {
+            border-bottom: 1px solid rgb(236, 236, 236)!important;
+            padding-bottom: 10px!important;
+            padding-top: 5px!important;
+        }
+    }
+}
