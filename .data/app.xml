@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="11.02.01" ExportDate="2020-06-24T14:39:16.0425492+02:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="13.00.01" ExportDate="2022-01-07T11:18:44.1138138+01:00">
   <Header>
-    <App Guid="cba74160-8edb-4118-b905-94fb40da5d31" />
-    <Language Default="en-US" />
+    <App Guid="36bfc743-fa83-458c-882c-d1f359bc605b" />
+    <Language Default="en-us" />
     <Dimensions>
       <Dimension DimensionID="100" Name="English (United States)" SystemKey="" ExternalKey="en-US" Active="true" />
       <Dimension DimensionID="101" Name="Deutsch (Deutschland)" SystemKey="" ExternalKey="de-DE" Active="true" />
     </Dimensions>
   </Header>
   <AttributeSets>
-    <AttributeSet StaticName="App-Resources" Name="App-Resources" Description="Stores resources like translations for an app" Scope="2SexyContent-App" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="App-Resources" Name="App-Resources" Description="Stores resources like translations for an app" Scope="System.App" AlwaysShareConfiguration="false">
       <Attributes>
         <Attribute StaticName="PlaceholderText" Type="String" IsTitle="true">
           <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="5feedd5c-5cbf-460e-823d-27dd99f5f210" Json="True" KeyNumber="1995">
@@ -63,7 +63,7 @@
         </Attribute>
       </Attributes>
     </AttributeSet>
-    <AttributeSet StaticName="App-Settings" Name="App-Settings" Description="Stores settings for an app" Scope="2SexyContent-App" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="App-Settings" Name="App-Settings" Description="Stores settings for an app" Scope="System.App" AlwaysShareConfiguration="false">
       <Attributes>
         <Attribute StaticName="SearchPage" Type="Hyperlink" IsTitle="true">
           <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="ed1c84d4-27ae-4cb9-9120-db1e601f9ba7" Json="True" KeyNumber="1993">
@@ -162,7 +162,7 @@
       <Value Key="DisplayName" Value="AddSearch" Type="String">
         <Dimension DimensionID="100" ReadOnly="false" />
       </Value>
-      <Value Key="Folder" Value="AddSearch" Type="String">
+      <Value Key="Folder" Value="AddSearch3" Type="String">
         <Dimension DimensionID="100" ReadOnly="false" />
       </Value>
       <Value Key="Hidden" Value="False" Type="Boolean">
@@ -171,16 +171,19 @@
       <Value Key="OriginalId" Value="" Type="String">
         <Dimension DimensionID="100" ReadOnly="false" />
       </Value>
-      <Value Key="RequiredDnnVersion" Value="07.02.00" Type="String">
+      <Value Key="RequiredDnnVersion" Value="07.04.02" Type="String">
         <Dimension DimensionID="100" ReadOnly="false" />
       </Value>
-      <Value Key="RequiredVersion" Value="11.00.00" Type="String">
+      <Value Key="RequiredOqtaneVersion" Value="02.02" Type="String">
         <Dimension DimensionID="100" ReadOnly="false" />
       </Value>
-      <Value Key="SupportsAjaxReload" Value="False" Type="Boolean">
+      <Value Key="RequiredVersion" Value="13.00.00" Type="String">
         <Dimension DimensionID="100" ReadOnly="false" />
       </Value>
-      <Value Key="Version" Value="02.00.00" Type="String">
+      <Value Key="SupportsAjaxReload" Value="True" Type="Boolean">
+        <Dimension DimensionID="100" ReadOnly="false" />
+      </Value>
+      <Value Key="Version" Value="03.00.00" Type="String">
         <Dimension DimensionID="100" ReadOnly="false" />
       </Value>
     </Entity>
@@ -262,6 +265,6 @@
   </Entities>
   <PortalFiles />
   <PortalFolders>
-    <Folder Id="10181" RelativePath="adam/AddSearch/" />
+    <Folder Id="13595" RelativePath="adam/AddSearch3/" />
   </PortalFolders>
 </SexyContent>
