@@ -1,24 +1,40 @@
-<image src="app-icon.png" align="right" width="200px">
+<img src="app-icon.png" align="right" width="200px">
 
-# AddSearch App for DNN (DotNetNuke)
+# AddSearch App for .net CMSs
 
-Search App for 2sxc / DNN
+> This is a [2sxc](https://2sxc.org) App for [DNN ☢️](https://www.dnnsoftware.com/) and [Oqtane 💧](https://www.oqtane.org/)
 
-## Installing the app
+An accordion app often used to collapse blocks of content - ideal for mobile sites.
 
-Follow the instructions in the ["Installing AddSearch" checklist](https://azing.org/2sxc/r/TBMhK1YB)
+| Aspect              | Status | Comments or Version |
+| ------------------- | :----: | ------------------- |
+| 2sxc                | ✅    | requires 2sxc v12.05
+| Dnn                 | ✅    | For v7, v8 and v9
+| Oqtane 2            | ✅    | Requires v2.02
+| No jQuery           | ✅    | 
+| Live Demo           | ➖    |
+| Install Checklist   | ✅    | See [Installation](https://azing.org/2sxc/r/TBMhK1YB) on [azing.org](https://azing.org/2sxc)
+| Source & License    | ✅    | included, ISC/MIT
+| App Catalog         | ✅    | See [app catalog](https://2sxc.org/en/apps/app/addsearch-app-for-2sxc)
+| Screenshots         | ✅    | See [app catalog](https://2sxc.org/en/apps/app/addsearch-app-for-2sxc)
+| Best Practices      | ✅    | Uses v12.05 conventions
+| Bootstrap 3         | ✅    |
+| Bootstrap 4         | ✅    |
+| Bootstrap 5         | ✅    |
 
-## Customizing the app
+## Customize the App
 
-### Configuration (Settings, Resources)
+The Accordion App does not have any app settings and just a few one app resource(label) you can customize.
+
+If you want to customize the CSS, you will usually follow the ["Create Custom Styles in a Standard 2sxc App" checklist](https://azing.org/2sxc/r/gg_aB9FD)
 
 To configure the app settings of the AddSearch App you can use the ["Configuring AddSearch" checklist](https://azing.org/2sxc/r/LCKhUXm5).
 In the app resources you can change the placeholder of the search fields.
 
-### Style
 
-If you want to customize the CSS, you will usually follow the ["Create Custom Styles in a Standard 2sxc App" checklist](https://azing.org/2sxc/r/gg_aB9FD)
+## History
 
-## Screenshots
-
-Read more about it in the [App Catalog](https://2sxc.org/en/apps/app/addsearch-app-for-2sxc)
+* v3 2022-01
+    * Latest best-practices of 2sxc 12.05
+    * clear/full separation of bs3/bs4/bs5
+    * no more jQuery

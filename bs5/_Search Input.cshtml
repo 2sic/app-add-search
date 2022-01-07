@@ -3,11 +3,9 @@
   var wrapperAttribute = "app-addsearch3-form-" + CmsContext.Module.Id;
 }
 
-<div class="app-add-search3 input-group" @wrapperAttribute data-resultpage="@Settings.SearchPage">
+<div class="app-add-search3 input-group mb-3" @wrapperAttribute data-resultpage="@Settings.SearchPage">
   <input type="text" class="form-control" placeholder="@Resources.PlaceholderText...">
-  <span class="input-group-btn">
-    <button class="btn btn-default" type="button"><i class="fas fa-search"></i></button>
-  </span>
+  <button class="btn btn-outline-secondary" type="button"><i class="fas fa-search"></i></button>
 </div>
 
 @Html.Partial("shared/_Assets.cshtml", new { WrapperAttribute = wrapperAttribute })
