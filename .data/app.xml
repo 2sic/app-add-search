@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="13.00.01" ExportDate="2022-01-07T11:18:44.1138138+01:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="13.00.01" ExportDate="2022-01-07T11:58:22.2751924+01:00">
   <Header>
     <App Guid="36bfc743-fa83-458c-882c-d1f359bc605b" />
     <Language Default="en-us" />
@@ -232,24 +232,6 @@
         <Dimension DimensionID="101" ReadOnly="false" />
       </Value>
       <Value Key="Path" Value="_Search Input.cshtml" Type="String" />
-      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
-      <Value Key="PublishData" Value="False" Type="Boolean" />
-      <Value Key="StreamsToPublish" Value="" Type="String" />
-      <Value Key="Type" Value="C# Razor" Type="String" />
-      <Value Key="UseForList" Value="False" Type="Boolean" />
-      <Value Key="ViewNameInUrl" Value="" Type="String" />
-    </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="00e2349f-b821-4d14-8c87-ec898a2c2a41" Json="True">
-      <Value Key="ContentTypeStaticName" Value="" Type="String" />
-      <Value Key="IsHidden" Value="False" Type="Boolean" />
-      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
-      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
-      <Value Key="Location" Value="Portal File System" Type="String" />
-      <Value Key="Name" Value="Search Field Mobile" Type="String" />
-      <Value Key="Name" Value="Suchfeld Mobile" Type="String">
-        <Dimension DimensionID="101" ReadOnly="false" />
-      </Value>
-      <Value Key="Path" Value="_Search Input Mobile.cshtml" Type="String" />
       <Value Key="PresentationTypeStaticName" Value="" Type="String" />
       <Value Key="PublishData" Value="False" Type="Boolean" />
       <Value Key="StreamsToPublish" Value="" Type="String" />
