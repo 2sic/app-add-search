@@ -4,8 +4,6 @@
 
 > This is a [2sxc](https://2sxc.org) App for [DNN ☢️](https://www.dnnsoftware.com/) and [Oqtane 💧](https://www.oqtane.org/)
 
-An accordion app often used to collapse blocks of content - ideal for mobile sites.
-
 | Aspect              | Status | Comments or Version |
 | ------------------- | :----: | ------------------- |
 | 2sxc                | ✅    | requires 2sxc v13
@@ -23,8 +21,6 @@ An accordion app often used to collapse blocks of content - ideal for mobile sit
 | Bootstrap 5         | ✅    |
 
 ## Customize the App
-
-The Accordion App does not have any app settings and just a few one app resource(label) you can customize.
 
 If you want to customize the CSS, you will usually follow the ["Create Custom Styles in a Standard 2sxc App" checklist](https://azing.org/2sxc/r/gg_aB9FD)
 
