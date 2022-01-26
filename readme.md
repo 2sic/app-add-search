@@ -34,7 +34,3 @@ In the app resources you can change the placeholder of the search fields.
     * Latest best-practices of 2sxc 12.05
     * clear/full separation of bs3/bs4/bs5
     * no more jQuery
-
-TODO: @2mh 
-- get oqtane output to work (can show results from Dnn, but it should show results)
-- the code files look extremely similar. Maybe we can reduce them? eg. by checking CmsContext.View.Edition to just load from different js/css folders?

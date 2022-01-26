@@ -14,7 +14,11 @@
   button:active {
     outline: none !important;
   }
+  &.input-group svg {
+    height: 16px;
+  }
 }
+
 
 /*Styling Search Results*/
 #addsearch-results {

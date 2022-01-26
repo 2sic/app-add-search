@@ -7,7 +7,7 @@
 // 
 
 // Add header-comments to the final file
-@import "sass-comments.scss";
+@import "../../shared/styles/sass-comments.scss";
 
 
 // Include needed variables from Bootstrap 3
@@ -23,4 +23,4 @@
 // and they wouldn't work otherwise
 @import "bs4-polyfills/_breakpoints.scss";
 
-@import "_style.scss";          // General CSS stuff for everything
+@import "../../shared/styles/_style.scss";

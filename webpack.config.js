@@ -9,11 +9,11 @@ const WebpackBar = require('webpackbar');
 module.exports = (env) => {
   return {
     entry: {
-      styles: `./${env.style}/styles/${env.style}.scss`,      
-      scripts: './src/ts/index.ts',
+      [`${env.style}/dist/styles`]: `./${env.style}/styles/${env.style}.scss`,      
+      'dist/scripts': './src/ts/index.ts',
     },
     output: {
-      path: path.resolve(__dirname, `${env.style}/dist`),
+      path: path.resolve(__dirname),
       filename: '[name].min.js',
     },
     mode: 'production',
