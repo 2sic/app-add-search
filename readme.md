@@ -8,7 +8,7 @@
 | ------------------- | :----: | ------------------- |
 | 2sxc                | ✅    | requires 2sxc v13
 | Dnn                 | ✅    | For v7, v8 and v9
-| Oqtane 2            | ✅    | Requires v2.02
+| Oqtane 2 / 3        | ✅    | Requires v2.02+
 | No jQuery           | ✅    | 
 | Live Demo           | ➖    |
 | Install Checklist   | ✅    | See [Installation](https://azing.org/2sxc/r/TBMhK1YB) on [azing.org](https://azing.org/2sxc)
@@ -34,3 +34,5 @@ In the app resources you can change the placeholder of the search fields.
     * Latest best-practices of 2sxc 12.05
     * clear/full separation of bs3/bs4/bs5
     * no more jQuery
+
+TODO: @2mh - get oqtane output to work (can show results from Dnn, but it should show results)
