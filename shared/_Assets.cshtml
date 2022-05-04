@@ -18,5 +18,5 @@
 }
 
 <turnOn turn-on='{ "run": "window.appSearch3.init()", "data": { "wrapperAttribute": "@DynamicModel.WrapperAttribute" } }'></turnOn>
-<link rel="stylesheet" href="@App.Path/@CmsContext.View.Edition/dist/styles.min.css" page.AssetAttributes()/>
-<script type="text/javascript" src="@App.Path/dist/scripts.min.js" page.AssetAttributes(position:"bottom")></script>
+<link rel="stylesheet" href="@App.Path/@CmsContext.View.Edition/dist/styles.min.css" @(page.AssetAttributes())/>
+<script type="text/javascript" src="@App.Path/dist/scripts.min.js" @(page.AssetAttributes(position:"bottom" ))></script>
