@@ -34,3 +34,5 @@ In the app resources you can change the placeholder of the search fields.
     * Latest best-practices of 2sxc 12.05
     * clear/full separation of bs3/bs4/bs5
     * no more jQuery
+* v3.1 2022-05 
+    * Replaced data-enableoptimizations with IPageService.AssetAttributes
