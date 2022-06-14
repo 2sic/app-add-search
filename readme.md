@@ -6,7 +6,7 @@
 
 | Aspect              | Status | Comments or Version |
 | ------------------- | :----: | ------------------- |
-| 2sxc                | ✅    | requires 2sxc v13
+| 2sxc                | ✅    | requires 2sxc v13.10
 | Dnn                 | ✅    | For v7, v8 and v9
 | Oqtane 2 / 3        | ✅    | Requires v3.02+
 | No jQuery           | ✅    | 
@@ -15,7 +15,7 @@
 | Source & License    | ✅    | included, ISC/MIT
 | App Catalog         | ✅    | See [app catalog](https://2sxc.org/en/apps/app/addsearch-app-v3-hybrid-for-dnn-and-oqtane)
 | Screenshots         | ✅    | See [app catalog](https://2sxc.org/en/apps/app/addsearch-app-v3-hybrid-for-dnn-and-oqtane)
-| Best Practices      | ✅    | Uses v12.05 conventions
+| Best Practices      | ✅    | Uses v13.10 conventions
 | Bootstrap 3         | ✅    |
 | Bootstrap 4         | ✅    |
 | Bootstrap 5         | ✅    |
