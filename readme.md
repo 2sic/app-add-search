@@ -36,3 +36,7 @@ In the app resources you can change the placeholder of the search fields.
     * no more jQuery
 * v3.1 2022-05 
     * Replaced data-enableoptimizations with IPageService.AssetAttributes
+* v3.1 2022-06 
+    * Replaced all base classes with their new sxc14 equivalents
+    * Updated webpack 
+    * Switched from GetService<> to Kit.Service
