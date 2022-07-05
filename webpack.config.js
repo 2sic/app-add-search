@@ -16,8 +16,9 @@ module.exports = (env) => {
     devtool: 'source-map',
     watch: true,
     stats: {
-      all: false,
-      assets: true
+      warnings: false,
+      cachedModules: false,
+      groupModulesByCacheStatus: false
     },
     cache: {
       type: 'filesystem',
@@ -68,15 +69,6 @@ module.exports = (env) => {
           use: {
             loader: 'ts-loader'
           }
-        },
-        {
-          test: /\.(png|jpe?g|gif)$/,
-          use: [{
-            options: {
-              name: '[name].[ext]',
-              outputPath: 'images/'
-            }
-          }]
         }
       ],
     },
