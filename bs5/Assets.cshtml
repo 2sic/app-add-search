@@ -13,15 +13,12 @@
 @Kit.Page.Activate(condition: Kit.Css.IsUnknown, features: "Bootstrap5")
 
 
-@if(DynamicModel.ResultPage == true) {
+@if (DynamicModel.ResultPage == true) {
   <script src="https://addsearch.com/js/?key=@App.Settings.SearchKey&type=resultpage"></script>
   return;
 }
 
-@* <turnOn turn-on='{ "run": "window.appSearch3.init()", "data": { "wrapperAttribute": "@DynamicModel.WrapperAttribute" } }'></turnOn> *@
-
-  @Kit.Page.TurnOn("window.appSearch3.init()", data: data)
-
+@Kit.Page.TurnOn("window.appSearch3.init()", data: data)
 
 @* Include styles & scripts of the App *@
 <link rel="stylesheet" href="@CmsContext.View.Path/dist/styles.min.css" @Kit.Page.AssetAttributes()/>
