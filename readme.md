@@ -6,7 +6,7 @@
 
 | Aspect              | Status | Comments or Version |
 | ------------------- | :----: | ------------------- |
-| 2sxc                | ✅    | requires 2sxc v13.10
+| 2sxc                | ✅    | requires v16.00
 | Dnn                 | ✅    | For v7, v8 and v9
 | Oqtane 2 / 3        | ✅    | Requires v3.02+
 | No jQuery           | ✅    | 
@@ -30,13 +30,17 @@ In the app resources you can change the placeholder of the search fields.
 
 ## History
 
-* v3 2022-03
-    * Latest best-practices of 2sxc 12.05
-    * clear/full separation of bs3/bs4/bs5
-    * no more jQuery
-* v3.1 2022-05 
-    * Replaced data-enableoptimizations with IPageService.AssetAttributes
-* v3.1 2022-06 
-    * Replaced all base classes with their new sxc14 equivalents
-    * Updated webpack 
-    * Switched from GetService<> to Kit.Service
+* v03.00.00 2022-03
+  * Latest best-practices of 2sxc 12.05
+  * clear/full separation of bs3/bs4/bs5
+  * no more jQuery
+* v03.01.00 2022-05
+  * Replaced data-enableoptimizations with IPageService.AssetAttributes
+* v03.02.00 2022-06 
+  * Replaced all base classes with their new sxc14 equivalents
+  * Updated webpack
+  * Switched from GetService<> to Kit.Service
+* v03.03.00 2023-05
+  * Removed _ from Filenames
+  * Code in one file the bs5, less duplicated code
+  * Replaced turnOn Tag with `Kit.Page.TurnOn`

@@ -1,10 +1,10 @@
 @inherits Custom.Hybrid.Razor14
 
 <div class="app-add-search3">
-  @Html.Partial("_Search Input.cshtml")
+  @Html.Partial("Search Input.cshtml")
 
   @* Search results will be rendered to this div *@
   <div id="addsearch-results"></div>
 </div>
 
-@Html.Partial("../shared/_Assets.cshtml", new { ResultPage = true })
+@Html.Partial("Assets.cshtml", new { ResultPage = true })

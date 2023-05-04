@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="14.09.00" ExportDate="2022-09-21T08:39:38.3429296+02:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="16.00.00" ExportDate="2023-05-04T12:45:43.7222088+02:00">
   <Header>
     <App Guid="36bfc743-fa83-458c-882c-d1f359bc605b" />
     <Language Default="en-us" />
@@ -9,7 +9,7 @@
     </Dimensions>
   </Header>
   <AttributeSets>
-    <AttributeSet StaticName="App-Resources" Name="App-Resources" Description="Stores resources like translations for an app" Scope="System.App" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="App-Resources" Name="App-Resources" Scope="System.App" AlwaysShareConfiguration="false">
       <Attributes>
         <Attribute StaticName="PlaceholderText" Type="String" IsTitle="true">
           <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="5feedd5c-5cbf-460e-823d-27dd99f5f210" Json="True" KeyNumber="1995">
@@ -63,7 +63,7 @@
         </Attribute>
       </Attributes>
     </AttributeSet>
-    <AttributeSet StaticName="App-Settings" Name="App-Settings" Description="Stores settings for an app" Scope="System.App" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="App-Settings" Name="App-Settings" Scope="System.App" AlwaysShareConfiguration="false">
       <Attributes>
         <Attribute StaticName="SearchPage" Type="Hyperlink" IsTitle="true">
           <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="ed1c84d4-27ae-4cb9-9120-db1e601f9ba7" Json="True" KeyNumber="1993">
@@ -177,13 +177,13 @@
       <Value Key="RequiredOqtaneVersion" Value="3.1" Type="String">
         <Dimension DimensionID="100" ReadOnly="false" />
       </Value>
-      <Value Key="RequiredVersion" Value="14.09.00" Type="String">
+      <Value Key="RequiredVersion" Value="16.00.00" Type="String">
         <Dimension DimensionID="100" ReadOnly="false" />
       </Value>
       <Value Key="SupportsAjaxReload" Value="True" Type="Boolean">
         <Dimension DimensionID="100" ReadOnly="false" />
       </Value>
-      <Value Key="Version" Value="03.02.01" Type="String">
+      <Value Key="Version" Value="03.03.00" Type="String">
         <Dimension DimensionID="100" ReadOnly="false" />
       </Value>
     </Entity>
@@ -231,7 +231,7 @@
       <Value Key="Name" Value="Search Results" Type="String">
         <Dimension DimensionID="100" ReadOnly="false" />
       </Value>
-      <Value Key="Path" Value="bs4/_Search Results.cshtml" Type="String">
+      <Value Key="Path" Value="bs5/Search Results.cshtml" Type="String">
         <Dimension DimensionID="100" ReadOnly="false" />
       </Value>
       <Value Key="PresentationTypeStaticName" Value="" Type="String">
@@ -290,7 +290,7 @@
       <Value Key="Name" Value="Search Field" Type="String">
         <Dimension DimensionID="100" ReadOnly="false" />
       </Value>
-      <Value Key="Path" Value="bs4/_Search Input.cshtml" Type="String">
+      <Value Key="Path" Value="bs5/Search Input.cshtml" Type="String">
         <Dimension DimensionID="100" ReadOnly="false" />
       </Value>
       <Value Key="PresentationTypeStaticName" Value="" Type="String">
@@ -323,6 +323,35 @@
     </Entity>
     <Entity TargetType="1" AssignmentObjectType="Default" AttributeSetStaticName="3937fa17-ef2d-40a7-b089-64164eb10bab" AttributeSetName="2sxcPolymorphismConfiguration" EntityGUID="fbf6140c-c2ca-43af-b76a-897532d25b30" Json="True">
       <Value Key="Mode" Value="Koi?cssFramework" Type="String">
+        <Dimension DimensionID="100" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity TargetType="3" AssignmentObjectType="App" AttributeSetStaticName="be34f64b-7d1f-4ad0-b488-dabbbb01a186" AttributeSetName="LightSpeedOutputDecorator" EntityGUID="6477e6b4-345b-4835-a0f5-a88cc943e8dc" Json="True" KeyNumber="117">
+      <Value Key="Advanced" Value="" Type="String">
+        <Dimension DimensionID="100" ReadOnly="false" />
+      </Value>
+      <Value Key="ByUrlParameters" Value="False" Type="Boolean">
+        <Dimension DimensionID="100" ReadOnly="false" />
+      </Value>
+      <Value Key="Duration" Value="-1" Type="Number">
+        <Dimension DimensionID="100" ReadOnly="false" />
+      </Value>
+      <Value Key="DurationEditors" Value="300" Type="Number">
+        <Dimension DimensionID="100" ReadOnly="false" />
+      </Value>
+      <Value Key="DurationSystemAdmin" Value="60" Type="Number">
+        <Dimension DimensionID="100" ReadOnly="false" />
+      </Value>
+      <Value Key="DurationUsers" Value="-1" Type="Number">
+        <Dimension DimensionID="100" ReadOnly="false" />
+      </Value>
+      <Value Key="IsEnabled" Value="True" Type="Boolean">
+        <Dimension DimensionID="100" ReadOnly="false" />
+      </Value>
+      <Value Key="Title" Value="✅ - Users 🚫, Reg 🚫, Editors 300s, SysAdmins 60s" Type="String">
+        <Dimension DimensionID="100" ReadOnly="false" />
+      </Value>
+      <Value Key="UrlParametersCaseSensitive" Value="False" Type="Boolean">
         <Dimension DimensionID="100" ReadOnly="false" />
       </Value>
     </Entity>
