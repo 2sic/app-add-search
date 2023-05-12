@@ -5,11 +5,11 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = (env) => {
   return {
     entry: {
-      [`${env.style}/dist/styles`]: `./${env.style}/styles/${env.style}.scss`,      
-      'dist/scripts': './src/ts/index.ts',
+      styles: `./${env.style}/styles/${env.style}.scss`,          
+      scripts: './src/ts/index.ts',
     },
     output: {
-      path: path.resolve(__dirname),
+      path: path.resolve(__dirname, `${env.style}/dist`),
       filename: '[name].min.js',
     },
     mode: 'production',

@@ -4,6 +4,7 @@ var winAny = window as any;
 function init({ wrapperAttribute } : { wrapperAttribute: string }) {
   // disable DNN form wrapper
   if (document.getElementsByTagName('form').length) document.getElementsByTagName('form')[0].setAttribute('novalidate', '');
+  console.log('init', wrapperAttribute);
   
   const wrapper = document.querySelector(`[${wrapperAttribute}]`);
   const input = wrapper.querySelector(`input`);  
