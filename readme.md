@@ -6,9 +6,9 @@
 
 | Aspect              | Status | Comments or Version |
 | ------------------- | :----: | ------------------- |
-| 2sxc                | ✅    | requires v16.00
-| Dnn                 | ✅    | For v7, v8 and v9
-| Oqtane 2 / 3        | ✅    | Requires v3.02+
+| 2sxc                | ✅    | requires v16.02
+| Dnn                 | ✅    | For v9.6.1+
+| Oqtane 2 / 3        | ✅    | Requires v3.04+
 | No jQuery           | ✅    | 
 | Live Demo           | ➖    |
 | Install Checklist   | ✅    | See [Installation](https://azing.org/2sxc/r/TBMhK1YB) on [azing.org](https://azing.org/2sxc)
@@ -44,3 +44,6 @@ In the app resources you can change the placeholder of the search fields.
   * Removed _ from Filenames
   * Code in one file the bs5, less duplicated code
   * Replaced turnOn Tag with `Kit.Page.TurnOn`
+* v03.04.00 2023-07
+  * 2sxc 16.02 coding conventions
+  * everything typed
