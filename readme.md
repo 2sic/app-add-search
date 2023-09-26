@@ -6,10 +6,10 @@
 
 | Aspect              | Status | Comments or Version |
 | ------------------- | :----: | ------------------- |
-| 2sxc                | ✅    | requires v16.02
+| 2sxc                | ✅    | requires v16.04
 | Dnn                 | ✅    | For v9.6.1+
-| Oqtane 2 / 3        | ✅    | Requires v3.04+
-| No jQuery           | ✅    | 
+| Oqtane 2 / 3        | ✅    | Requires v04.00+
+| No jQuery           | ✅    |
 | Live Demo           | ➖    |
 | Install Checklist   | ✅    | See [Installation](https://azing.org/2sxc/r/TBMhK1YB) on [azing.org](https://azing.org/2sxc)
 | Source & License    | ✅    | included, ISC/MIT
