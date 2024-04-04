@@ -1,5 +1,6 @@
-@inherits Custom.Hybrid.RazorTyped
+@inherits AppCode.Razor.AppRazor
 @using ToSic.Razor.Blade;
+@using AppCode.Data
 
 @{
   var wrapperAttribute = MyModel.String("WrapperAttribute", required: false);
@@ -15,7 +16,7 @@
 
 
 @if (resultPage == true) {
-  <script src="https://addsearch.com/js/?key=@App.Settings.String("SearchKey")&type=resultpage"></script>
+  <script src="https://addsearch.com/js/?key=@AppSet.SearchKey&type=resultpage"></script>
   return;
 }
 
