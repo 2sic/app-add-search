@@ -10,8 +10,8 @@
   var btnWrapper = isBs3 ? "input-group-btn" : "input-group-append";
 }
 
-<div class="app-add-search3 input-group mb-3" @wrapperAttribute data-resultpage="@AppSet.SearchPage">
-  <input type="text" class="form-control" placeholder="@AppRes.PlaceholderText...">
+<div class="app-add-search3 input-group mb-3" @wrapperAttribute data-resultpage="@App.Settings.SearchPage">
+  <input type="text" class="form-control" placeholder="@App.Resources.PlaceholderText...">
 
   @if (isBs3 || isBs4) {
     @:<span class="@btnWrapper">
