@@ -6,7 +6,7 @@
 
 | Aspect              | Status | Comments or Version 
 | ------------------- | :----: | -------------------
-| 2sxc                | ✅    | requires v17.06.02
+| 2sxc                | ✅    | requires v17.07.00
 | Dnn                 | ✅    | For v9.6.1+
 | Oqtane              | ✅    | Requires v04.00+
 | No jQuery           | ✅    |
@@ -47,7 +47,8 @@ In the app resources you can change the placeholder of the search fields.
 * v03.04.00 2023-07
   * 2sxc 16.02 coding conventions
   * everything typed
-* v03.04.17
+* v03.17.00
   * Strong Typed
   * Auto Generated Class
-  * Typed MyItem 
+  * Typed MyItem
+  
