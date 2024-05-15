@@ -13,10 +13,9 @@
 
 // Include needed variables and mixins from Bootstrap 5
 // You must adapt these paths to match your Bootstrap 5 skin
-@import "_variables.scss";
 @import "../../node_modules/bs5/scss/mixins/_breakpoints.scss";
 @import "../../node_modules/bs5/scss/variables";
 
 
 // Now parse the Accordion CSS Rules
-@import "../../src/styles/_style.scss";
+@import "_style.scss";
