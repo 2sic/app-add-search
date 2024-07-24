@@ -53,4 +53,6 @@ In the app resources you can change the placeholder of the search fields.
   * Typed MyItem
 * v03.17.01
   * Removed BS3
+* v03.17.02
+  * Update app.sln and app.csproj
   
