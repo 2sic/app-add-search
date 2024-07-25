@@ -51,8 +51,6 @@ In the app resources you can change the placeholder of the search fields.
   * Strong Typed
   * Auto Generated Class
   * Typed MyItem
-* v03.17.01
+* v03.17.01 2024-07
   * Removed BS3
-* v03.17.02
   * Update app.sln and app.csproj
-  
