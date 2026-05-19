@@ -7,6 +7,10 @@ function init({ wrapperAttribute } : { wrapperAttribute: string }) {
   console.log('init', wrapperAttribute);
   
   const wrapper = document.querySelector(`[${wrapperAttribute}]`);
+  if (!wrapper) {
+    return;
+  }
+  
   const input = wrapper.querySelector(`input`);  
 
   winAny.addsearch_settings ??= {
