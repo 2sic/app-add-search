@@ -11,7 +11,12 @@ function init({ wrapperAttribute } : { wrapperAttribute: string }) {
     return;
   }
   
-  const input = wrapper.querySelector(`input`);  
+  const input = wrapper.querySelector(`input`); 
+  const btn = wrapper.querySelector('button');
+  
+  if (!input || !btn) {
+    return;
+  }
 
   winAny.addsearch_settings ??= {
     display_url: true,
@@ -20,11 +25,12 @@ function init({ wrapperAttribute } : { wrapperAttribute: string }) {
     display_sortby: true
   };
 
-  wrapper.querySelector('button').addEventListener('click', () => search(input.value, wrapper.getAttribute('data-resultpage')));
-  wrapper.querySelector('input').addEventListener('keypress', (e) => {
+  btn.addEventListener('click', () => search(input.value, wrapper.getAttribute('data-resultpage') || ''));
+
+  input.addEventListener('keypress', (e) => {
     if (e.key !== 'Enter') return;
     e.preventDefault();
-    search(input.value, wrapper.getAttribute('data-resultpage'));
+    search(input.value, wrapper.getAttribute('data-resultpage') || '');
   });
 }
   
